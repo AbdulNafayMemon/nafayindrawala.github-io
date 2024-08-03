@@ -6,4 +6,4 @@ setInterval(() => {
     } else {
         image.style.display = 'none';
     }
-}, 1000);
+}, 100);
