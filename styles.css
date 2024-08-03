@@ -5,8 +5,10 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    overflow: hidden; /* Prevent scrollbars from appearing */
 }
 img {
-    max-width: 100%;
+    position: absolute;
+    max-width: 10%; /* Adjust as needed */
     height: auto;
 }
