@@ -2,8 +2,8 @@ const image = document.getElementById('bouncingImage');
 
 let posX = 0;
 let posY = 0;
-let directionX = 2; // Speed in X direction
-let directionY = 2; // Speed in Y direction
+let directionX = 20; // Speed in X direction
+let directionY = 20; // Speed in Y direction
 
 function updatePosition() {
     const imageRect = image.getBoundingClientRect();
