@@ -7,11 +7,11 @@ body {
     background-color: #f4f4f4;
 }
 
-
 header {
     background-color: #333;
     color: white;
     padding: 20px 0;
+    text-align: center; /* Ensure the header text is centered */
 }
 
 header h1 {
@@ -28,6 +28,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center; /* Center-align the navigation */
 }
 
 nav ul li {
@@ -50,7 +51,8 @@ nav ul li a {
 }
 
 section {
-    padding: 40px 20px;
+    padding: 40px 40px; /* Increased left and right padding */
+    text-align: center;  /* Center-align the section text */
 }
 
 section h2 {
@@ -63,24 +65,17 @@ section p, section ul {
     line-height: 1.6em;
     max-width: 800px;
     margin: 0 auto;
-}
-
-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-section ul li {
-    margin: 10px 0;
+    text-align: center;  /* Center-align section content */
 }
 
 blockquote {
     font-style: italic;
     background-color: #e8e8e8;
-    padding: 20px;
+    padding: 20px 40px; /* Increased left and right padding */
     margin: 20px auto;
     max-width: 600px;
     border-left: 5px solid #333;
+    text-align: center;  /* Center-align blockquote text */
 }
 
 #cta .btn {
@@ -101,6 +96,7 @@ footer {
     color: white;
     padding: 20px 0;
     margin-top: 40px;
+    text-align: center; /* Center-align the footer text */
 }
 
 footer p {
@@ -141,6 +137,7 @@ footer .social a:hover {
 
 .filter-buttons {
     margin-top: 20px;
+    text-align: center; /* Center-align filter buttons */
 }
 
 .filter-btn {
@@ -160,6 +157,7 @@ footer .social a:hover {
 form {
     max-width: 600px;
     margin: 0 auto;
+    text-align: center; /* Center-align form elements */
 }
 
 form label {
